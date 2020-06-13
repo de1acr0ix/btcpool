@@ -35,7 +35,7 @@
 #include "bitcoin/StratumBitcoin.h"
 
 using namespace std;
-using namespace testing;
+using testing::_;
 
 TEST(StratumSession, LocalShareBitcoin) {
   StratumTraitsBitcoin::LocalShareType ls1(
